@@ -10,7 +10,7 @@ def send(txtList, browser):
         inp.click()
         sleep(1)
         for part in i.split('\n'):
-            inp.send_keys("  " + part)
+            inp.send_keys(part)
             ActionChains(browser).key_down(Keys.SHIFT).key_down(Keys.ENTER).key_up(Keys.SHIFT).key_up(
                 Keys.ENTER).perform()
         inp.send_keys("\n")

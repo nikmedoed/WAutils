@@ -17,7 +17,7 @@ def checkBase(base):
         res.append(te)
         inp.clear()
     browser.close()
-    print(res)
+    # print(res)
     with open('verificated.txt', 'w', encoding="utf-8") as f:
         f.write('\n'.join(res))
     return res

@@ -23,6 +23,7 @@ for i in base:
     send=False
     while not(send):
         try:
+            sleep(2)
             pers = browser.find_elements_by_xpath(
                 '/html/body/mw-app/div/main/mw-main-container/div[1]/mw-new-conversation-container/div/mw-contacts-list/div/mw-contact-row/div/div')
             if len(pers)==0:

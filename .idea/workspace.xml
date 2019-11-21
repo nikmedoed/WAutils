@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2712498d-0739-4f59-86de-08a5c7cd4134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mes send.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sms.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getMes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mes send">
+  <component name="RunManager" selected="Python.getMes">
     <configuration name="checkBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WAutils" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,6 +59,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkBase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getMes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getMes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,8 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mes send" />
+        <item itemvalue="Python.getMes" />
         <item itemvalue="Python.sender" />
+        <item itemvalue="Python.mes send" />
         <item itemvalue="Python.checkBase" />
       </list>
     </recent_temporary>

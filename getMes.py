@@ -15,14 +15,21 @@ def finder(base):
             sleep(2)
             pers = browser.find_elements_by_xpath('//div[2]/div[1]/div/span/span/span')
             pers[0].click()
-            sleep(3) # готовы читать
+            sleep(6) # готовы читать
             mess = browser.find_elements_by_xpath('//div[3]/div/div/div[2]/div')
-            mes = "\n------\n".join(list(map(lambda x: x.text, mess[2:])))
-            print(i)
-            i.append(mes)
-            result.append(i)
+            if len(mess) > 0:
+                mes = "\n------\n".join(list(map(lambda x: x.text, mess[2:])))
+                date = browser.find_elements_by_xpath('//div[3]/div/div/div[2]/div/div/div/div/div[1]')
+                dat = date[len(date)-1].get_attribute('data-pre-plain-text').split()[1].replace(']', "")
+                print(i, dat)
+                i.extend([mes, dat])
+                result.append(i)
+            else:
+                print("Пусто", i)
+                i.append("Пусто")
+                result.append(i)
         except:
-            print ("Исключение", i)
+            print("Исключение", i)
             i.append("Error")
             result.append(i)
     browser.close()
@@ -30,7 +37,7 @@ def finder(base):
 
 
 if __name__ == "__main__":
-    with open("../mesbase.txt", "r", encoding="utf8") as b:
+    with open("../OKbase1.txt", "r", encoding="utf8") as b:
         base = list(map(lambda x: x.split("\t"), b.read().split("\n")))
     fin = finder(base)
     print(fin)

@@ -40,6 +40,6 @@ def getMesList (txtList, person):
     return list(map(lambda x: x.replace("#", person[0]).replace("$", person[1]), txtList))
 
 if __name__ == "__main__":
-    with open("../mesbase.txt", "r", encoding="utf8") as b:
+    with open("../OKbase1-NM.txt", "r", encoding="utf8") as b:
         base = list(map(lambda x: x.split("\t"), b.read().split("\n")))
     print(sender(base))

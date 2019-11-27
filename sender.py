@@ -24,22 +24,25 @@ def sender(base):
     input("enter как авторизируешься")
     search = browser.find_element_by_xpath('//div[1]/div/label/input')
     for i in base:
-        mess = getMesList(txtList, i)
-        search.send_keys(i[2])
-        sleep(2)
-        pers = browser.find_elements_by_xpath('//div[2]/div[1]/div/span/span/span')
-        pers[0].click()
-        sleep(1) # готовы отправлять
-        send(mess, browser)
-        print(i)
-        # res.append(te)
         search.clear()
+        try:
+            mess = getMesList(txtList, i)
+            search.send_keys(i[2])
+            sleep(2)
+            pers = browser.find_elements_by_xpath('//div[2]/div[1]/div/span/span/span')
+            pers[0].click()
+            sleep(1) # готовы отправлять
+            send(mess, browser)
+            print(i)
+            # res.append(te)
+        except:
+            print(i, "Неудачно")
     browser.close()
 
 def getMesList (txtList, person):
     return list(map(lambda x: x.replace("#", person[0]).replace("$", person[1]), txtList))
 
 if __name__ == "__main__":
-    with open("../OKbase1-NM.txt", "r", encoding="utf8") as b:
+    with open("../good2.txt", "r", encoding="utf8") as b:
         base = list(map(lambda x: x.split("\t"), b.read().split("\n")))
     print(sender(base))

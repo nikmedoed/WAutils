@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2712498d-0739-4f59-86de-08a5c7cd4134" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imageToClipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/contracts/mes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/contracts/photo_2020-03-29_15-25-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/contracts/схемаV2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/mes — копия.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/mes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/mesU.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/mesmy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/sms.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messages/oss4/verificated.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newSender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchLoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WAutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WAutils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesU.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesmy.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/verificated.txt" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,36 +43,44 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1967" />
-    <option name="y" value="-256" />
-    <option name="width" value="2521" />
-    <option name="height" value="1416" />
-  </component>
   <component name="ProjectId" id="1TW1srHZFCMVGi4o7EOJ5a78rVe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.2.3/resources/app/git/mingw64/bin/git.exe" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.sender">
+  <component name="RunManager" selected="Python.newSender">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="checkBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WAutils" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,9 +88,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkBase.py" />
@@ -74,19 +102,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getMes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="newSender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WAutils" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getMes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newSender.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,19 +123,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mes send" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="searchLoc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WAutils" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mes send.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searchLoc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,9 +151,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sender.py" />
@@ -137,15 +165,84 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="WAutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\sirne\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.checkBase" />
+      <item itemvalue="Python.newSender" />
+      <item itemvalue="Python.searchLoc" />
+      <item itemvalue="Python.sender" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.newSender" />
+        <item itemvalue="Python.searchLoc" />
         <item itemvalue="Python.sender" />
-        <item itemvalue="Python.getMes" />
-        <item itemvalue="Python.mes send" />
         <item itemvalue="Python.checkBase" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,9 +261,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -185,9 +280,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2654" y="99" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585487614669">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="2654" y="99" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585487614669" />
+    <state width="2539" height="417" key="GridCell.Tab.0.bottom" timestamp="1585824307639">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="417" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585824307639" />
+    <state width="2539" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585752888620" />
+    <state width="2522" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-256.2560.1400/-1920.0.1920.1040@1920.-256.2560.1400" timestamp="1585662097884" />
+    <state width="2539" height="417" key="GridCell.Tab.0.center" timestamp="1585824307638">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="417" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585824307638" />
+    <state width="2539" height="417" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585752888620" />
+    <state width="2522" height="415" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-256.2560.1400/-1920.0.1920.1040@1920.-256.2560.1400" timestamp="1585662097884" />
+    <state width="2539" height="417" key="GridCell.Tab.0.left" timestamp="1585824307638">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="417" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585824307638" />
+    <state width="2539" height="417" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585752888619" />
+    <state width="2522" height="415" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-256.2560.1400/-1920.0.1920.1040@1920.-256.2560.1400" timestamp="1585662097883" />
+    <state width="2539" height="417" key="GridCell.Tab.0.right" timestamp="1585824307638">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="417" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585824307638" />
+    <state width="2539" height="417" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585752888620" />
+    <state width="2522" height="415" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-256.2560.1400/-1920.0.1920.1040@1920.-256.2560.1400" timestamp="1585662097884" />
+    <state x="2701" y="86" key="SettingsEditor" timestamp="1585488147249">
+      <screen x="1920" y="-256" width="2560" height="1400" />
+    </state>
+    <state x="2701" y="86" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.-256.2560.1400@1920.-256.2560.1400" timestamp="1585488147249" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,6 +331,11 @@
           <url>file://$PROJECT_DIR$/getMes.py</url>
           <line>19</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../instaPrinter/Instagram.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

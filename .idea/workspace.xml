@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2712498d-0739-4f59-86de-08a5c7cd4134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imageToClipboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/contracts/mes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/contracts/photo_2020-03-29_15-25-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/contracts/схемаV2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/mes — копия.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/mes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/mesU.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/mesmy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/sms.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/oss4/verificated.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newSender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchLoc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WAutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WAutils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesU.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mesmy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verificated.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="2712498d-0739-4f59-86de-08a5c7cd4134" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,16 +297,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/messend2.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/getMes.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../../instaPrinter/Instagram.py</url>
           <line>57</line>
